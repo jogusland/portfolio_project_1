@@ -71,7 +71,7 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -88,9 +88,11 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.heading {
+.interests-heading {
+  background: url(images/language-background.jpeg);
+  background-size: 100%;
   background-color: white;
-  padding: 20px;
+  padding: 20px; 
 }
 .card {
   margin: 30px;
